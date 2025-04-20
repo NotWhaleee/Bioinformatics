@@ -1,0 +1,195 @@
+########################################
+# Program: matcher
+# Rundate: Sun 20 Apr 2025 12:09:03
+# Commandline: matcher
+#    -auto
+#    -asequence /var/lib/emboss-explorer/output/250747/.asequence
+#    -bsequence /var/lib/emboss-explorer/output/250747/.bsequence
+#    -outfile outfile
+# Align_format: markx0
+# Report_file: outfile
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: 67341963-67429152
+# 2: 83734926-83781869
+# Matrix: EDNAFULL
+# Gap_penalty: 16
+# Extend_penalty: 4
+#
+# Length: 1317
+# Identity:     875/1317 (66.4%)
+# Similarity:   875/1317 (66.4%)
+# Gaps:         151/1317 (11.5%)
+# Score: 2115
+# 
+#
+#=======================================
+
+        82620      82630     82640     82650     82660   
+673419 TTCCCATCT-TCTCCACAGGGTTTGTGCCTTACATTATTACTCCTTGCCA
+       : : : ::: :::::::::::  :::::::::::::: : :: :: ::::
+837349 TGCGCCTCTGTCTCCACAGGGCCTGTGCCTTACATTACTCCTGCTCGCCA
+       45750     45760     45770     45780     45790     
+
+         82670     82680     82690     82700     82710   
+673419 TTTTCAAGAAAGCATTGCCAGCTCTTCCAATCTCCATCACCTTTGGGCTT
+       ::::::::::::: :::::::: :: :: :::::::::::::: ::::: 
+837349 TTTTCAAGAAAGCGTTGCCAGCCCTCCCCATCTCCATCACCTTCGGGCTC
+       45800     45810     45820     45830     45840     
+
+         82720     82730     82740     82750     82760   
+673419 GTTTTCTACTTTGCCACAGATTATCTTGTACAGCCTTTTATGGACCAATT
+       :: :::::::: ::::: ::::: ::::: ::::: :: ::::::::: :
+837349 GTGTTCTACTTCGCCACGGATTACCTTGTGCAGCCCTTCATGGACCAACT
+       45850     45860     45870     45880     45890     
+
+         82770     82780     82790     82800     82810   
+673419 AGCATTCCATCAATTTTATATCTAGCATATTTGCGGTTAGAATCCCATGG
+        ::::::::::: ::::::::::::: : : ::: :::::::   :::::
+837349 TGCATTCCATCAGTTTTATATCTAGCCTTTCTGCAGTTAGAA---CATGG
+       45900     45910     45920     45930        45940  
+
+         82820     82830           82840                 
+673419 ATGTTTCTTCTTTGACTATAA------CAAAATCTGGG------------
+       ::::::::::::::: ::: :      ::::: : : :            
+837349 ATGTTTCTTCTTTGATTATCAAAAACACAAAAACAGAGAGCAAGCCCGAG
+          45950     45960     45970     45980     45990  
+
+       82850     82860     82870     82880     82890     
+673419 GAGGACAAAGGTGATTTTCCTGTGTCCACATCTAACAAAGTCAAGATTCC
+       ::::: :  ::::: :::::::::::: :: ::::::::: :: :: :::
+837349 GAGGAGACTGGTGACTTTCCTGTGTCCTCAGCTAACAAAGGCAGGACTCC
+          46000     46010     46020     46030     46040  
+
+       82900     82910     82920     82930     82940     
+673419 CGGCTGGACTTTTGCAGCTTCCTTCCAAGTCTTCCTGACCACCTTGCACT
+        : :::::::: :::::::::::::: ::::: :::  :::::  :::::
+837349 AG-CTGGACTTCTGCAGCTTCCTTCCGAGTCTCCCTAGCCACCC-GCACT
+           46050     46060     46070     46080      46090
+
+       82950     82960     82970     82980     82990     
+673419 ATTGGACTTTGGAAGGAGGTGCCTATAGAAAACGATTTTGAACATACTTC
+       : :::::: :::::::: : : ::: ::: :::: :::  ::::: : ::
+837349 ACTGGACTGTGGAAGGAAGCGTCTACAGAGAACGGTTTCCAACATCCATC
+            46100     46110     46120     46130     46140
+
+       83000     83010     83020     83030     83040     
+673419 ATCGCAGTGGACTGTGTCCCTCGGTGCAGAAACTACCAGATTTGAGGGAC
+          ::::  ::: ::::::::: :::             : ::::: :::
+837349 GCTGCAGCAGACGGTGTCCCTCAGTG-------------ACTTGAGAGAC
+            46150     46160                  46170       
+
+       83050     83060     83070     83080     83090     
+673419 GAGGTCAAGGAGATATGATAGGCCCGGAAGTTGCTGTGCCCCATCAGCAG
+        ::: :::::: :: :: : ::::  : :: ::: :::: :    :::  
+837349 AAGGACAAGGAAATGTGCTGGGCCAAGGAGCTGCCGTGCTCTGCTAGC--
+     46180     46190     46200     46210     46220       
+
+       83100     83110     83120     83130     83140     
+673419 CTTGACGCGTGGTCACAGGACGATTTCACTGACACTGCGAACTCTCAGGA
+        ::::: ::::: ::  ::: ::::: ::   ::::: :::::::     
+837349 TTTGACCCGTGGGCAT-GGA-GATTT-ACCCGCACTGTGAACTCT-----
+       46230     46240        46250     46260            
+
+       83150     83160     83170     83180     83190     
+673419 CTACCGCTACCAAGAGGTTAGGTGAAGTGGTTTAAACCAAACGGAACTCT
+                 : : ::::::    :::::   : :::::::: :: ::  
+837349 ----------CTAAAGGTTAAACAAAGTGAGGTGAACCAAACAGAGCTGC
+               46270     46280     46290     46300       
+
+       83200     83210     83220     83230     83240     
+673419 TCATCTTAAACTACACGTTGAAAATCAACCCAATAATTCTGTATTAACTG
+        ::::::  ::  :: :::: :::: :: :          ::  :: :::
+837349 -CATCTTCCACACCATGTTGGAAATAAAACAC--------GTCCTAGCTG
+      46310     46320     46330             46340        
+
+       83250     83260     83270     83280     83290     
+673419 AATTCTGAACTTTTCAGGAGGTACTGTGAGGAAGAGCAGGCACCAGCAGC
+       ::  :: : :: : :::::::: : ::: ::: : :   ::::       
+837349 AACCCTTA-CTGTCCAGGAGGTTCCGTGTGGAGGTG---GCAC-------
+    46350      46360     46370     46380                 
+
+       83300     83310     83320     83330     83340     
+673419 AGAATGGGGAATGGAGAGGTGGGCAGGGGTTCCAGCTTCCCTTTGATTTT
+                          ::::: :::  :::  ::       : :  :
+837349 -------------------TGGGCCGGGCCTCCCTCT----CAGGCTCCT
+                        46390     46400         46410    
+
+       83350     83360       83370     83380     83390   
+673419 TTGCTGCAGACTCATCCTTTTTAA--ATGAGACTTGTTTTCCCCTCTCTT
+       :::::::  :::  :   ::: ::  : :: ::     : : :    :: 
+837349 TTGCTGCCCACTTGTAAGTTTAAATAAGGACACCGCCCTACACAAACCTC
+        46420     46430     46440     46450     46460    
+
+         83400     83410     83420     83430     83440   
+673419 TGAGTCAAGTCAAATATGTAGATTGCCTTTGGCAATTCTTCTTCTCAAGC
+         :  :  :::: ::  :     :: :: :: : : : :: ::::::: :
+837349 --ACCCCTGTCACATCAG-----TGACTCTGACCACTTTTGTTCTCAAAC
+          46470     46480          46490     46500       
+
+         83450     83460     83470     83480     83490   
+673419 ACTGACACTCATTACCGTCTGTGATTGCCATTTCTTCCCAAGGCCAGTCT
+        ::  :::: ::::   :::::: ::::: ::::::::::::::::: ::
+837349 TCTCTCACT-ATTA---TCTGTGGTTGCCGTTTCTTCCCAAGGCCAGCCT
+     46510      46520        46530     46540     46550   
+
+             83500     83510     83520     83530         
+673419 GAACC----TGAGGTTGCTTTATCCTAAAAGTTTTAACCTCAGGTTCCAA
+       : ::     :: ::::::: :::::: : :::: ::::::::  ::::::
+837349 GGACGAATTTGGGGTTGCTCTATCCTGAGAGTTGTAACCTCAACTTCCAA
+         46560     46570     46580     46590     46600   
+
+   83540     83550     83560     83570     83580         
+673419 ATTCAGTAAATTTTGGAAACAGTACAGCTATTTCTCATCAATTCTCTATC
+       : :   ::  :: : ::::   :  : ::::: :::: :: : : :: ::
+837349 AGTTTATATTTTCTTGAAATGATGGATCTATTGCTCAACAGT-CCCTGTC
+         46610     46620     46630     46640      46650  
+
+   83590     83600     83610     83620     83630         
+673419 ATGTTGAAGTCAAATTTGGATTTTCCACCAAATTCTGAATTTGTAGACAT
+       ::  : :::: :  : ::: ::: :::: ::::::   : :: :::::: 
+837349 ATCCTTAAGTGACTTCTGGGTTTCCCAC-AAATTCCTCACTTTTAGACAC
+          46660     46670     46680      46690     46700 
+
+   83640     83650       83660     83670     83680       
+673419 ACTTGTACGCTCACTT--GCCCCAGATGCCTCCTCTGTCCTCATTCTTCT
+       :::  :: ::: ::::  : ::  ::::: ::::::  :::   ::: : 
+837349 ACTC-TAAGCTTACTTCTGGCCTGGATGCTTCCTCTC-CCTGTCTCTCCC
+            46710     46720     46730      46740         
+
+     83690     83700     83710      83720     83730      
+673419 CTCCCACACAAGCAGTCTTTTTCT-ACAGCCAGTAAGGCAGCTCTGTCAT
+        : :: :::: :: ::   :  :: :::::    ::::::::::::  : 
+837349 TTGCCCCACA-GCGGT---TCCCTGACAGCAGACAAGGCAGCTCTGGGA-
+   46750      46760        46770     46780     46790     
+
+      83740     83750      83760     83770     83780     
+673419 GGTAGCAGATGGTC-CCATTATTCTAGGGTCTTACTCTTTGTATGATGAA
+       ::::::   : ::  ::: ::  : ::::  :: ::: :    ::::: :
+837349 GGTAGC---TAGTATCCAATAACCCAGGGGTTTCCTCAT---GTGATGCA
+        46800        46810     46820     46830           
+
+       83790         83800     83810     83820     83830 
+673419 AAGAAT--GTGTT--ATGAATCGGTGCTGTCAGCCCTGCTGTCAGACCTT
+       :: : :  ::::   :  :::: ::::::::: :   :::: :: : :: 
+837349 AATACTACGTGTCCAACCAATCAGTGCTGTCAACGG-GCTGCCATAGCTC
+    46840     46850     46860     46870      46880       
+
+           83840     83850     83860     83870     83880 
+673419 CTTCCACAGCAAATGAGATGTATGCCCAAAGACGGTAGAATTAAAGAAGA
+       :::: :  ::::::  ::::: :::::::       ::::::::::    
+837349 CTTCGATGGCAAATAGGATGTGTGCCCAA-------AGAATTAAAGCGAT
+     46890     46900     46910            46920     46930
+
+           83890        
+673419 GTAAAATGGCTGTTGAA
+       :   : :::::: ::::
+837349 G---AGTGGCTGGTGAA
+               46940    
+
+
+#---------------------------------------
+#---------------------------------------
